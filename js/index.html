@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <title>Candy Wrapper</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+
+    <script src="vector2.js"></script>
+    <script src="path.js"></script>
+    <script src="sprite.js"></script>
+
+    <script src="input_manager.js"></script>
+    <script src="sprite_manager.js"></script>
+
+    <script src="wrapper.js"></script>
+    <script src="spinner.js"></script>
+    <script src="candy.js"></script>
+    <script src="level.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="menu" class="popup">
+        <div>
+            <p class="about" id="about"> Press spinners to rotate them so that candies collide with wrapper with matching color.<br><br>
+                 Don't forget about LuckMeter. If you miss 5 candies at level 'Bad luck' the game will end.<br><br>
+                 Speed of the game will increase every 30 seconds.
+            </p>
+        </div>
+        <div id="startBtn" class="squareBtn" onselectstart="return false">Start Game</div>
+    </div>
+</body>
+</html>
